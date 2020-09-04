@@ -8,3 +8,4 @@ git log - tregon te gjitha commit
 git show - tregon te gjitha commit dhe ndryshimet qe ke bere brenda file
 git ls-file - tregon te gjitha file qe jan tracked nga git (dmth nuk ja add)
 git commit -am "test" - shortcut per git add . dhe pastaj git commit -m "test"
+asdsadasdasdsd
