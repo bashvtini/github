@@ -4,3 +4,7 @@ git status - shiko statusin
 git add . (ose emrin e file/folder) - i fut file ne staging state
 git commit -m "doc" (" dhe pastaj enter per te shkruar nje mesazh me te gjate dhe mbyllet me " dhe enter) - i commit ndryshimet ne brach master me commit message "doc"
 rm -rf .git - fshin komplet git 
+git log - tregon te gjitha commit
+git show - tregon te gjitha commit dhe ndryshimet qe ke bere brenda file
+git ls-file - tregon te gjitha file qe jan tracked nga git (dmth nuk ja add)
+git commit -am "test" - shortcut per git add . dhe pastaj git commit -m "test"
