@@ -2,4 +2,5 @@ git init - perdoret per te init nje git repository
 git init demo - krijo nje folder demo dhe ne te init nje git repository
 git status - shiko statusin
 git add . (ose emrin e file/folder) - i fut file ne staging state
-git commit -m "doc" - i commit ndryshimet ne brach master me commit message "doc"
+git commit -m "doc" (" dhe pastaj enter per te shkruar nje mesazh me te gjate dhe mbyllet me " dhe enter) - i commit ndryshimet ne brach master me commit message "doc"
+rm -rf .git - fshin komplet git 
