@@ -8,4 +8,11 @@ git log - tregon te gjitha commit
 git show - tregon te gjitha commit dhe ndryshimet qe ke bere brenda file
 git ls-file - tregon te gjitha file qe jan tracked nga git (dmth nuk ja add)
 git commit -am "test" - shortcut per git add . dhe pastaj git commit -m "test"
-asdsadasdasdsd
+git reset HEAD . (ose file name) - remove git add .
+git checkout -- . - heq ndryshimet e bera ne file
+git help log - trregon te gjitha opsionet e kesaj commange
+git log --oneline --graph --decorate --all - trregon te gjitha commit po me bukur
+git config --global alias.history "log --oneline --graph --decorate --all" - krijo nje variable per te shkurtu komanden ne kllapa
+git config --global --list - shiko te gjitha variablat e git qe jan globale
+git mv "Doc.txt" "documentation.txt" - rename file
+git rm "Doc.txt" - fshin dokumntin
