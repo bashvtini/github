@@ -16,3 +16,8 @@ git config --global alias.history "log --oneline --graph --decorate --all" - kri
 git config --global --list - shiko te gjitha variablat e git qe jan globale
 git mv "Doc.txt" "documentation.txt" - rename file
 git rm "Doc.txt" - fshin dokumntin
+git diff XXXX XXXX (ose HEAD, ose pa asnje nga xxxx dhe shiko ndryshimet me te funit) - shiko diferencen e ndryshimeve 
+git difftool -||- - shiko diferencen e ndryshimeve me nje program
+git branch - shiko brachet e projektit
+git checkout -b valentin (emri i branch) - krijo nje branch te ri dhe cdo ndryshim te add . futi ne ate branch
+git dadsadadasdas
