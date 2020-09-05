@@ -23,3 +23,11 @@ git checkout -b valentin (emri i branch) - krijo nje branch te ri dhe cdo ndrysh
 git diff valentin master - shiko diferencen midis branch 
 git checkout master - leviz midis brancheve
 git merge valentin - merge master branch me valentin branch
+git branch -d valentin - fshi nje branch
+git mergetool - shiko ndryshimet mes fileve nqs ka nje prb gjate merge dhe me program zgjidh cil version ben 
+git tag mytag - shto nje tag ne commit per te treguar nje milestone
+git tag --list - shiko te gjitha tag
+git tag -d mytag - fshij tag
+git tag -a v1.0 -m "Bruh" - shto nje tag por edhe nje messazh ekstra mbi kete tag
+git reset xxxx --soft (ose --mixed, --hard) - udheto ne koh tek momenti kur codi punonte mir
+git reflog - tregon te gjitha veprimet qe kemi kryer ne terminal dmth commit add dhe reset nga ku mund te kthehemi prap ne kohen kur kofi nuk punonte
