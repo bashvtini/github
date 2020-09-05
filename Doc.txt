@@ -31,3 +31,5 @@ git tag -d mytag - fshij tag
 git tag -a v1.0 -m "Bruh" - shto nje tag por edhe nje messazh ekstra mbi kete tag
 git reset xxxx --soft (ose --mixed, --hard) - udheto ne koh tek momenti kur codi punonte mir
 git reflog - tregon te gjitha veprimet qe kemi kryer ne terminal dmth commit add dhe reset nga ku mund te kthehemi prap ne kohen kur kofi nuk punonte
+git remote -v - shiko te gjitha remote repository
+git push -u origin master --tag - uplodo kodin ne remote repository bashk me tag
