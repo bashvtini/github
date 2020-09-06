@@ -33,3 +33,5 @@ git reset xxxx --soft (ose --mixed, --hard) - udheto ne koh tek momenti kur codi
 git reflog - tregon te gjitha veprimet qe kemi kryer ne terminal dmth commit add dhe reset nga ku mund te kthehemi prap ne kohen kur kofi nuk punonte
 git remote -v - shiko te gjitha remote repository
 git push -u origin master --tag - uplodo kodin ne remote repository bashk me tag
+git pull - nqs ben nje ndryshim brenda ne github dhe nje local jepi git pull qe te merge remote me local
+git fetch - merr file nga remote ne local
